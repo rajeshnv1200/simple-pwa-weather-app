@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
   async function getWeather() {
 
     const city = document.getElementById('city').value;
-    const apiKey = '1852a8a0d03ab7dc6d18752ce3e43b7d';  // Replace with your actual API key
+    const apiKey = 'apikey';  // Replace with your actual API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
     try {
